@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/testRoot"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".spline.TestActivity">
+
+<!--    <com.zoe.show_model_demo.spline.SplinePlatformView-->
+<!--        android:id="@+id/splineView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        tools:context=".spline.TestActivity" />-->
+</androidx.constraintlayout.widget.ConstraintLayout>
