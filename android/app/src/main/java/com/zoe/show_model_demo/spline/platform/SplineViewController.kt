@@ -5,6 +5,7 @@ import android.util.Log
 import android.view.View
 import com.zoe.show_model_demo.PlatformConstants
 import com.zoe.show_model_demo.PlatformConstants.Method_Spline_channelPath
+import com.zoe.show_model_demo.R
 import com.zoe.show_model_demo.spline.SplinePlatformView
 import io.flutter.plugin.common.BinaryMessenger
 import io.flutter.plugin.common.MethodCall
@@ -56,7 +57,7 @@ class SplineViewController(
             }
 
             PlatformConstants.Method_Spline_loadRes -> {
-                splineView?.loadResource()
+                splineView?.loadResource(R.raw.rocket_copy)
                 result.success(true)
             }
 
@@ -67,7 +68,6 @@ class SplineViewController(
             }
 
             PlatformConstants.Method_Spline_loadBuffer -> {
-//                splineView?.loadBuffer()
                 result.success(true)
             }
 

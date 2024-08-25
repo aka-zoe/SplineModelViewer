@@ -16,6 +16,7 @@ class _SplineViewState extends State<SplineView> {
 
   @override
   Widget build(BuildContext context) {
+    //iOS使用UiKitView，Android使用AndroidView
     return AndroidView(
       viewType: Constants.Platform_Spline_viewTypeId,
       onPlatformViewCreated: (viewTypeId) {

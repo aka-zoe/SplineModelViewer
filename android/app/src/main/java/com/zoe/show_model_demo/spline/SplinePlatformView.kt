@@ -1,6 +1,7 @@
 package com.zoe.show_model_demo.spline
 
 import android.content.Context
+import androidx.annotation.RawRes
 import androidx.constraintlayout.widget.ConstraintLayout
 import com.zoe.show_model_demo.R
 import design.spline.runtime.SplineView
@@ -18,8 +19,8 @@ class SplinePlatformView(context: Context) : ConstraintLayout(context) {
         addView(splineView)
     }
 
-    fun loadResource() {
-        splineView?.loadResource(R.raw.rocket_copy)
+    fun loadResource(@RawRes id: Int) {
+        splineView?.loadResource(id)
     }
 
     fun loadUrl(url: String?) {
